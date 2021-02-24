@@ -27,4 +27,4 @@ phases:
       - printf '[{"name":"nodejs-container","imageUri":"%s"}]' 501886171881.dkr.ecr.us-east-1.amazonaws.com/nodejs-repo-ecr > imagedefinitions.json
       - cat imagedefinitions.json
 artifacts:
-    files: imagedefinitions.json
+    files: imagedefinitions.jso
